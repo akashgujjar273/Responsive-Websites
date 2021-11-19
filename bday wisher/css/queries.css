@@ -1,0 +1,77 @@
+@media (max-width:75em){
+    html{
+        font-size: 43.75%;
+    }
+
+    .birthday__timer{
+        width: 25%;
+        color: white;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 4rem;
+        justify-content: center;
+        align-content: center;
+    }
+    
+}
+
+@media (max-width:44em){
+    html{
+        font-size: 37.5%;
+    }
+
+    /* .birthday__timer{
+        row-gap: 2rem;
+    } */
+
+    
+.birthday__main-heading h1{
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+}
+.birthday__main-heading{
+    text-align: center;
+}
+
+}
+
+@media (max-width:44em){
+    html{
+        font-size: 27%;
+    }
+    .birthday__main-heading{
+        color: white;
+        margin-top: 5rem;
+        margin-bottom:5rem;
+    }
+
+    .birthday__images{
+        margin-top: 10rem;
+    }
+
+    .birthday__main-heading h1{
+        font-size: 4.5rem;
+        padding: 1.5rem 3rem;
+    }
+    
+    .birthday__timer{
+        row-gap: 0;
+    }
+
+    .lightst img{
+        width: 100vw;
+        display: block;
+        height: auto;
+        position: fixed;
+        top: 0;
+        opacity: 0.8;
+    }
+    .lightsb img{
+        width: 100vw;
+        display: block;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        z-index: -1;
+    }
+}
